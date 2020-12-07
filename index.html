@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Covid-19</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css"> 
+        <!-- Adding a font from google-->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet">
+        <script src="api1.js"></script>
+    </head>
+    <body>
+        <div id="bg">
+            <header id="header">
+                <div class="wrapper">
+                    <!-- Page title-->
+                    <h1 id="navbar">Corona</h1>
+                    <h6 id="year">2020</h6>
+                </div>
+            </header>
+            <main>
+                <div class="wrapper">
+                    <!-- Searchbar with button-->
+                    <div id="hakukenttä">
+                        <input id="input" type="text" placeholder="Search by country" />
+                        <button id="painike" type="button">Etsi!</button>
+                    </div >
+                    <!-- warning message if input is wrong-->
+                    <div id="div1">
+                        <h3 id="tarkistusPyyntö"></h3>
+                    </div>
+                    <!-- Box that has all the displayable text-->
+                    <div id="tiedot" >
+                        <h2 id="maa"></h2>
+                        <h4 id="kaikkiCovidTartunnat"></h4>          
+                    </div>
+                    <div id="covidTartunnat" >
+                        <h3 id="TartunnatOtsikko">Todetut Covid-19 tartunnat kuukausittain:</h3>
+                        <!-- table to show cases by month-->
+                        <table>
+                            <tr>
+                                <td>Tammikuu</td>
+                                <td id="TapauksetTammikuu"></td>
+								<td>Helmikuu</td>
+                                <td id="TapauksetHelmikuu"></td>
+                            </tr>
+                            <tr>
+                                <td>Maaliskuu</td>
+                                <td id="TapauksetMaaliskuu"></td>
+								<td>Huhtikuu</td>
+                                <td id="TapauksetHuhtikuu"></td>
+                            </tr>
+                            <tr>
+                                <td>Toukokuu</td>
+                                <td id="TapauksetToukokuu"></td>
+								<td>Kesäkuu</td>
+                                <td id="TapauksetKesäkuu"></td>
+                            </tr>
+                            <tr>
+                                <td>Heinäkuu</td>
+                                <td id="TapauksetHeinäkuu"></td>
+								<td>Elokuu</td>
+                                <td id="TapauksetElokuu"></td>
+                            </tr>
+                            <tr>
+								<td>Syyskuu</td>
+                                <td id="TapauksetSyyskuu"></td>
+                                <td>Lokakuu</td>
+                                <td id="TapauksetLokakuu"></td> 
+                            </tr>
+                            <tr>
+                                <td>Marraskuu</td>
+                                <td id="TapauksetMarraskuu"></td>
+                                <td>Joulukuu</td>
+                                <td id="TapauksetJoulukuu"</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <footer>
+                    <div>
+                        <p>Kasaan tämän väänsi Konsta Turunen</p>
+                        <p>Tällä sivustolla on käytetty COVID 19 -Api:a tietojen poiminnassa</p>
+						<p id="tietojenTarkistus"></p>
+                    </div>
+                </footer>
+            </main>
+        </div>
+    </body>
+</html>

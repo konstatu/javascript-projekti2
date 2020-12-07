@@ -1,0 +1,84 @@
+body{
+    background-color: green;
+    background-image: url("coronavirus-4993235_1280.png");
+    overflow-x: hidden;
+	width: auto;
+	height: auto;
+}
+
+.wrapper {
+    margin: auto;
+    width: auto;
+    
+}
+/* header/navbar*/
+#header {
+    padding: 15px 40px;
+}
+#navbar {
+    font-size: 60px;
+    color: white;
+    text-align: center;
+}
+#year {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+#hakukenttä {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+#input {
+    padding: 5px;
+    border-radius: 5px;
+    width: 300px;
+    height: 20px;
+    font-size: 18px;
+}
+
+tarkistusPyyntö {
+    font-size: 40px;
+    color: rgb(207, 189, 250);
+}
+/* display information */
+#tiedot {
+color: white;
+font-size: 30px;
+}
+
+#covidTartunnat {
+    margin-top: 50px;
+    border: solid #335085;
+    background-color: #ebf2ff;
+    opacity: 90%;
+    height: 370px;
+    border-radius: 35px;
+}
+#TartunnatOtsikko{
+    padding-left: 25px;
+    font-size: 25px;
+}
+
+table {
+    width: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+tr, td{
+    padding-top: 20px;
+    border-bottom: 3px solid #708bbe;
+    border-radius: 5px;
+    width: auto;
+}
+footer{
+    color: white;
+    position: relative;
+    bottom: 0;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    margin: 0;
+    width: 100%;
+}
